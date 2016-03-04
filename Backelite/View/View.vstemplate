@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Main</DefaultName>
+    <Name>View ViewModel</Name>
+    <Description>&lt;Aucune description disponible&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+	<TemplateGroupID>WinRT-Managed-UAP</TemplateGroupID>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Designer" TargetFileName="Views/$fileinputname$View.xaml" ReplaceParameters="true">MainPage.xaml</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="Views/$fileinputname$View.xaml.cs" ReplaceParameters="true">MainPage.xaml.cs</ProjectItem>
+	<ProjectItem SubType="" TargetFileName="ViewModels/$fileinputname$ViewModel.cs" ReplaceParameters="true">ViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

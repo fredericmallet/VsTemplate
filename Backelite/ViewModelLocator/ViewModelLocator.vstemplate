@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>ViewModelLocator.cs</DefaultName>
+    <Name>ViewModelLocator</Name>
+    <Description>This is an example ViewModelLocator</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+    <TemplateGroupID>WinRT-Managed-UAP</TemplateGroupID>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ViewModelLocator.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
