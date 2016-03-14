@@ -1,4 +1,4 @@
-﻿using $rootnamespace$.ViewModels
+﻿using $rootnamespace$.ViewModels;
 
 namespace $rootnamespace$.Views
 {
